@@ -5,6 +5,7 @@
 -- This file is automatically loaded by config.init or plugins.core
 
 -- Keyboard leaders
+vim.opt.relativenumber = true
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ';'
 
@@ -62,7 +63,7 @@ local opt = vim.opt
 
 opt.title = true
 opt.titlestring = '%<%F%=%l/%L - nvim'
-opt.mouse = 'nv'               -- Enable mouse in normal and visual modes only
+opt.mouse = ''               -- Enable mouse in normal and visual modes only
 opt.virtualedit = 'block'      -- Position cursor anywhere in visual block
 opt.conceallevel = 2           -- Hide * markup for bold and italic, but not markers with substitutions
 opt.confirm = true             -- Confirm unsaved changes before exiting buffer
@@ -227,6 +228,8 @@ vim.filetype.add({
 		Brewfile = 'ruby',
 		justfile = 'just',
 		Justfile = 'just',
+		['.html5'] = 'php',
+		['.blade'] = 'php',
 		['.buckconfig'] = 'toml',
 		['.flowconfig'] = 'ini',
 		['.jsbeautifyrc'] = 'json',

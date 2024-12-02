@@ -1,0 +1,28 @@
+{
+  "extras": [
+    "lazyvim.plugins.extras.coding.luasnip",
+    "lazyvim.plugins.extras.coding.mini-comment",
+    "lazyvim.plugins.extras.coding.mini-surround",
+    "lazyvim.plugins.extras.editor.inc-rename",
+    "lazyvim.plugins.extras.lang.json",
+    "lazyvim.plugins.extras.lang.markdown",
+    "lazyvim.plugins.extras.lang.php",
+    "lazyvim.plugins.extras.lang.sql",
+    "lazyvim.plugins.extras.lang.tailwind",
+    "lazyvim.plugins.extras.lang.typescript",
+    "lazyvim.plugins.extras.lang.vue",
+    "lazyvim.plugins.extras.ui.mini-animate",
+    "rafi.plugins.extras.coding.editorconfig",
+    "rafi.plugins.extras.coding.emmet",
+    "rafi.plugins.extras.coding.luasnip",
+    "rafi.plugins.extras.coding.mini-pairs",
+    "rafi.plugins.extras.editor.spectre",
+    "rafi.plugins.extras.lang.tmux",
+    "rafi.plugins.extras.org.telekasten",
+    "rafi.plugins.extras.org.zk"
+  ],
+  "news": [
+
+  ],
+  "version": 7
+}
