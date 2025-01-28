@@ -168,6 +168,7 @@ return {
 				'sql',
 				'ssh_config',
 				'svelte',
+				'twig',
 				'toml',
 				'vim',
 				'vimdoc',

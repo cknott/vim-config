@@ -3,7 +3,7 @@ return {
 	-- Provides support for expanding abbreviations alá emmet
 	{
 		'mattn/emmet-vim',
-		ft = { 'html', 'css', 'vue', 'javascript', 'javascriptreact', 'svelte' },
+		ft = { 'html', 'html5', 'php', 'css', 'vue', 'javascript', 'javascriptreact', 'svelte', 'twig' },
 		init = function()
 			vim.g.user_emmet_mode = 'i'
 			vim.g.user_emmet_install_global = 0
@@ -16,6 +16,9 @@ return {
 				pattern = {
 					'css',
 					'html',
+					'twig',
+					'html5',
+					'php',
 					'javascript',
 					'javascriptreact',
 					'svelte',

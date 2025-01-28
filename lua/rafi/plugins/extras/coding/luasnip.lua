@@ -48,6 +48,8 @@ return {
 		},
 		config = function(_, opts)
 			require('luasnip').setup(opts)
+			require('luasnip').filetype_extend('twig', {'twig'})
+			require('luasnip').filetype_extend('vue', {'vue'})
 			vim.api.nvim_create_user_command('LuaSnipEdit', function()
 				require('luasnip.loaders').edit_snippet_files()
 			end, {})
